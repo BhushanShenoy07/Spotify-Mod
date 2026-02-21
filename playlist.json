@@ -1,0 +1,45 @@
+
+{
+  "id": "1",
+  "name": "Discover Weekly",
+  "description": "Your weekly mixtape of fresh tracks — updated every Monday.",
+  "image": "/cover.jpg",
+  "owner": "Spotify",
+  "tracks": [
+    {
+      "id": "t1",
+      "name": "Sunset Lover",
+      "artist": "Petit Biscuit",
+      "album": "Petit Biscuit",
+      "duration": "3:58"
+    },
+    {
+      "id": "t2",
+      "name": "Electric Feel",
+      "artist": "MGMT",
+      "album": "Oracular Spectacular",
+      "duration": "3:49"
+    },
+    {
+      "id": "t3",
+      "name": "Taro",
+      "artist": "alt-J",
+      "album": "An Awesome Wave",
+      "duration": "5:10"
+    },
+    {
+      "id": "t4",
+      "name": "Borderline",
+      "artist": "Tame Impala",
+      "album": "Currents",
+      "duration": "3:57"
+    },
+    {
+      "id": "t5",
+      "name": "Night Owl",
+      "artist": "Gustavo Santaolalla",
+      "album": "Soundtracks",
+      "duration": "4:12"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #121212;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: white;
+}
+
+.app {
+  padding-bottom: 90px;
+}
+
+/* Responsive grid */
+.track-grid {
+  display: grid;
+  grid-template-columns: 48px 1fr 160px 200px 60px;
+  align-items: center;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.track-grid:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+@media (max-width: 960px) {
+  .track-grid {
+    grid-template-columns: 40px 1fr 120px 60px;
+  }
+  .album-col {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .track-grid {
+    grid-template-columns: 32px 1fr 60px;
+  }
+  .artist-col,
+  .album-col {
+    display: none;
+  }
+}
